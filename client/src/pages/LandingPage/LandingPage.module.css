@@ -1,0 +1,62 @@
+.bg {
+  background-image: url(../../assets/Bg.png);
+  background-color: #ff9f00;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #e5e5e5;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main {
+  height: 89.4vh;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.title {
+  padding-left: 50px;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+.main h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.main p {
+  font-size: 20px;
+  color: white;
+}
+
+.buttons {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.img {
+  margin-top: 90px;
+  margin-right: 90px;
+}
+
+.com {
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 90px;
+}
+
+.hp {
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  left: 25px;
+}

@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+.hp {
+  margin-top: 55px;
+  width: 90%;
+  cursor: pointer;
+}
