@@ -87,6 +87,8 @@ export default function MyLink() {
             ?.filter((items) => {
               if (search == "") {
                 return items;
+              } else if (search == "      ") {
+                return items;
               } else if (items?.title?.toLowerCase().includes(search.toLowerCase())) {
                 return items;
               } else if (items?.link?.toLowerCase().includes(search.toLowerCase())) {
